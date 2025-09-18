@@ -1,24 +1,49 @@
-.kitchen{
+/* Bloques */
+.kitchen {
     background-color: lightyellow;
     padding: 10px;
 }
 
-.kitchen--vaso--new{
-    color: green;
-    font-weight: bold;
-}
-
-.bedroom{
+.bedroom {
     background-color: lavender;
     padding: 10px;
 }
 
-.bedroom-item-big{
-    font-size: 20px;
-}
-
-.livingroom{
+.livingroom {
     background-color: lightblue;
     padding: 10px;
 }
 
+/* Elementos */
+.kitchen__olla,
+.kitchen__plato,
+.kitchen__vaso {
+    font-weight: normal;
+}
+
+.bedroom__cama,
+.bedroom__armario,
+.bedroom__lampara {
+    font-size: 16px;
+}
+
+.livingroom__mesa,
+.livingroom__sofa,
+.livingroom__televisor {
+    font-style: italic;
+}
+
+/* Modificadores */
+.kitchen__vaso--new {
+    color: green;
+    font-weight: bold;
+}
+
+.bedroom__cama--big {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.livingroom__sofa--new {
+    color: red;
+}

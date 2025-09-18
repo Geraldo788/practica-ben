@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metodo Ben</title>
-    <link rel="stylesheet" href="styles.css2">
+    <title>Método BEM - Específico</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
     <main>
         <div class="house">
-        <div class="kitchen">
-            <p class="kitchen--olla">Olla</p>
-            <p class="kitchen--plato">Plato</p>
-            <p class="kitchen--vaso house__kitchen-vaso--new">Vaso</p>
+
+            <!-- Cocina -->
+            <div class="kitchen">
+                <p class="kitchen__olla">Olla</p>
+                <p class="kitchen__plato">Plato</p>
+                <p class="kitchen__vaso kitchen__vaso--new">Vaso</p>
+            </div>
+
+            <!-- Habitación -->
+            <div class="bedroom">
+                <p class="bedroom__cama bedroom__cama--big">Cama</p>
+                <p class="bedroom__armario">Armario</p>
+                <p class="bedroom__lampara">Lámpara</p>
+            </div>
+
+            <!-- Sala -->
+            <div class="livingroom">
+                <p class="livingroom__mesa">Mesa</p>
+                <p class="livingroom__sofa livingroom__sofa--new">Sofá</p>
+                <p class="livingroom__televisor">Televisor</p>
+            </div>
+
         </div>
-
-        <div class="bedroom">
-            <p class="bedroom--cama">Cama</p>
-            <p class="bedroom--armario">Armario</p>
-            <p class="bedroom--lampara">Lámpara</p>
-        </div>
-
-        <div class="livingroom">
-            <p class="livingroom--mesa">Mesa</p>
-            <p class="livingroom--sofa">Sofá</p>
-            <p class="livingroom--televisor">Televisor</p>
-        </div>
-
-
-        </div>
-
-
     </main>
-
 </body>
 </html>
